@@ -1,24 +1,34 @@
-from flask import Flask, jsonify
+import random
+from flask import Flask, jsonify, request
+import random_data
+import funcoes
 
 app = Flask(__name__)
-@app.route('/')
+
+@app.route("/", methods=["GET"])
 def index():
-    return jsonify({"status": 200, "message": "API Isabella Galvão "})
+    return jsonify({"status": 200, "message": "API Isabella Galvão"})
 
-
-@app.route("/aleatorios")
+@app.route("/aleatorios", methods=["GET"])
 def aleatorios():
-    import random
     a = random.randint(49, 100)
     return jsonify({"status": 200, "data": a})
 
-@app.route("/argumentos/<string:nome>", methods=("GET",))
-def argumentos(nome: str):
+@app.route("/argumentos/", methods=["GET"])
+def argumentos(nome):
     return jsonify({"status": 200, "data": nome})
 
-@app.route("/argumentos", methods=("GET",))
+@app.route("/argumentos", methods=["GET"])
 def arg_implicito():
-    return jsonify({"status": 200, "data": request.args["nome"]})
+    nome = request.args.get("nome")
+    return jsonify({"status": 200, "data": nome})
+
+@app.route("/idades", methods=["GET"])
+def idades():
+    pessoas = random_data.pessoas
+    pessoa1, pessoa2, pessoa3 = funcoes.maior_de_50(pessoas)
+    
+    return jsonify({"status": 200 ,"dados" : {"pessoa1" : pessoa1, "pessoa2" : pessoa2, "pessoa3" : pessoa3}})
 
 if __name__ == '__main__':
     app.run(debug=True)
