@@ -222,6 +222,10 @@ def login():
     # faça algo com os dados recebidos...
 ```
 
+O QUE É FLASK:
 
+O Flask é um framework web em Python usado para construir aplicativos web.
+É conhecido por ser simples e fácil de aprender,
+tornando-o popular entre os desenvolvedores.
 
 
