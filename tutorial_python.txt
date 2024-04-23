@@ -1,0 +1,40 @@
+TUTORIAL PYTHON:
+
+1. Instalação do Python:
+   - Acesse o site oficial do Python (python.org) e faça o download da versão mais recente.
+   - Siga as instruções de instalação para o seu sistema operacional.
+   - Verifique se a instalação foi bem-sucedida digitando "python" no terminal ou prompt de comando. Você deve ver a versão instalada sendo exibida.
+
+2. Primeiro programa em Python:
+   Abra seu editor de texto favorito (como Sublime Text, Visual Studio Code ou IDLE).
+   
+   Escreva o seguinte código:
+
+```python
+print("Olá, mundo!")
+```
+
+Salve o arquivo com a extensão ".py" (por exemplo, "meu_programa.py").
+
+3. Executando seu programa:
+   Abra o terminal ou prompt de comando e navegue até a pasta onde você salvou seu arquivo .py.
+   
+   Digite `python meu_programa.py` e pressione Enter.
+   
+   Você deverá ver a mensagem "Olá, mundo!" sendo exibida na tela.
+
+4. Conceitos básicos:
+- Variáveis: Use `=` para atribuir um valor a uma variável. Exemplo: `nome = "João"`
+- Tipos de dados: Python possui vários tipos embutidos como inteiros (`int`), números decimais (`float`), strings (`str`) e booleanos (`bool`). Exemplo: `idade = 25`
+- Operadores aritméticos: Use os operadores `+`, `-`, `*`, `/` para fazer cálculos básicos.
+- Estruturas condicionais: Use os blocos if/else para executar diferentes trechos de código com base em condições. Exemplo:
+
+```python
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+```
+
+
+
