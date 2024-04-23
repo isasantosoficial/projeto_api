@@ -228,4 +228,19 @@ O Flask é um framework web em Python usado para construir aplicativos web.
 É conhecido por ser simples e fácil de aprender,
 tornando-o popular entre os desenvolvedores.
 
+PASSO A PASSO FAZER DOWNLOAD DO FLASK, PASSO 1, PASSO 2, PASSO 3:
+
+Passo 1: Abra o prompt de comando ou terminal no seu sistema operacional.
+
+Passo 2: Digite o seguinte comando e pressione Enter para instalar o Flask usando o pip (gerenciador de pacotes do Python):
+
+   ```
+   pip install flask
+   ```
+
+    O pip irá baixar e instalar automaticamente a última versão do Flask disponível.
+
+Passo 3: Aguarde até que a instalação esteja concluída. Você verá uma mensagem informando que a instalação foi bem-sucedida.
+
+
 
