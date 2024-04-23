@@ -177,3 +177,51 @@ PASSO A PASSO DA INSTALAÇÃO DO VIRTUALENV:
 
    `deactivate`
 
+
+TUTORIAL DO FLASK:
+
+Aqui estão os passos básicos para começar com o Flask:
+
+1. Instalação: Certifique-se de ter o Python instalado no seu sistema. Em seguida, você pode instalar o Flask executando o seguinte comando no terminal:
+```
+pip install flask
+```
+
+2. Importação: Após a instalação, importe as classes necessárias do Flask no seu arquivo Python:
+```python
+from flask import Flask, render_template, request
+```
+
+3. Configuração da aplicação: Crie uma instância da classe `Flask` e defina algumas configurações básicas:
+```python
+app = Flask(__name__)
+app.config['DEBUG'] = True
+```
+
+4. Rotas e views: Crie rotas para lidar com diferentes URLs na sua aplicação usando decoradores `@app.route`. Isso define qual função será executada quando uma determinada URL for acessada:
+```python
+@app.route('/')
+def index():
+    return 'Hello World!'
+```
+
+5. Templates: O Flask usa templates Jinja2 para criar páginas HTML dinamicamente. Você pode usar esses templates em conjunto com a função `render_template` para retornar páginas HTML ao invés de apenas texto.
+```python
+@app.route('/')
+def index():
+    return render_template('index.html')
+```
+Certifique-se de criar um diretório chamado "templates" na pasta raiz do seu projeto e colocar seus arquivos HTML lá.
+
+6. Recebendo dados dos formulários: Você pode receber dados enviados pelos usuários através de formulários usando a classe `request`. Por exemplo, se você tiver um formulário que envia dados através do método POST, você pode acessá-los assim:
+```python
+@app.route('/login', methods=['POST'])
+def login():
+    username = request.form['username']
+    password = request.form['password']
+    # faça algo com os dados recebidos...
+```
+
+
+
+
