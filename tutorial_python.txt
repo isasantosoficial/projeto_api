@@ -242,5 +242,27 @@ Passo 2: Digite o seguinte comando e pressione Enter para instalar o Flask usand
 
 Passo 3: Aguarde até que a instalação esteja concluída. Você verá uma mensagem informando que a instalação foi bem-sucedida.
 
+PASSO A PASSO DA INSTALAÇÃO DO FLASK:
 
+Passo 1: Certifique-se de ter o Python instalado no seu sistema. O Flask é uma estrutura em Python, então você precisará ter o Python instalado antes de poder instalar o Flask. Você pode verificar se você tem o Python instalado digitando "python --version" no terminal ou prompt de comando.
+
+Passo 2: Abra um terminal ou prompt de comando e digite o seguinte comando para instalar o Flask usando pip (gerenciador de pacotes do Python):
+
+```
+pip install flask
+```
+
+O pip irá baixar e instalar todos os pacotes necessários para executar o Flask.
+
+Passo 3: Após a conclusão da instalação, você pode testar se tudo foi configurado corretamente importando o módulo do Flask em um arquivo python:
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+```
+
+Se não houver erros ao importar, significa que a instalação foi bem-sucedida.
+
+Em seguida, você pode começar a criar seu aplicativo web com base no Flask. Existem muitos recursos online e tutoriais que podem ajudá-lo com isso.
 
