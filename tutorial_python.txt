@@ -147,5 +147,33 @@ ou
 pip3 install virtualenv
 ```
 
+PASSO A PASSO DA INSTALAÇÃO DO VIRTUALENV:
 
+1. Certifique-se de ter o Python instalado em seu sistema. Você pode verificar isso digitando "python --version" no terminal ou prompt de comando.
+
+2. Abra o terminal ou prompt de comando e execute o seguinte comando para instalar o virtualenv através do pip (gerenciador de pacotes do Python):
+
+   `pip install virtualenv`
+
+   Nota: Se você estiver usando uma versão mais recente do Python (3.4+), você pode usar `pip3 install virtualenv` em vez disso.
+
+3. Após a conclusão da instalação, crie um novo ambiente virtual com o seguinte comando:
+
+   `virtualenv nome_do_ambiente`
+
+   Substitua "nome_do_ambiente" pelo nome que você deseja dar ao seu ambiente.
+
+4. Ative o ambiente virtual executando o seguinte comando:
+
+   - No Windows:
+     `nome_do_ambiente\Scripts\activate.bat`
+
+   - No Linux/Mac:
+     `source nome_do_ambiente/bin/activate`
+
+5. Agora você está dentro do seu ambiente virtual e pode instalar pacotes específicos apenas para esse ambiente usando pip.
+
+6. Para desativar o ambiente virtual, execute este comando:
+
+   `deactivate`
 
