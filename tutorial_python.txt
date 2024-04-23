@@ -36,5 +36,11 @@ else:
     print("Você é menor de idade.")
 ```
 
+O QUE É PYTHON?
+
+Python é uma linguagem de programação popular conhecida pela sua simplicidade
+e legibilidade. É amplamente usado em desenvolvimento web, análise de dados,
+ automação e muitas outras áreas.
+
 
 
