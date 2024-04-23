@@ -78,3 +78,47 @@ Passo 7: Aguarde enquanto a instalação é concluída. Isso pode levar alguns m
 Passo 8: Após a conclusão da instalação, verifique se ela foi bem-sucedida abrindo um prompt de comando (no Windows) ou um terminal (no macOS/Linux) e digitando
  'python --version'. Você deverá ver uma resposta que mostra a versão do Python que foi instalada.
 
+
+
+TUTORIAL VIRTUALENV:
+
+ Instalação:
+   Primeiro, você precisa instalar o Virtualenv. Você pode fazer isso executando o seguinte comando no terminal:
+
+   ```
+   pip install virtualenv
+   ```
+
+2. Criando um ambiente virtual:
+   Para criar um ambiente virtual, navegue até a pasta do seu projeto no terminal e execute o seguinte comando:
+
+   ```
+   virtualenv nome_do_ambiente
+   ```
+
+3. Ativando o ambiente virtual:
+   Após criar o ambiente virtual, ative-o com este comando (no Windows):
+
+   ```
+    nome_do_ambiente\Scripts\activate
+    ```
+
+  No Linux/macOS use este comando:
+
+  ```
+  source nome_do_ambiente/bin/activate
+  ```
+
+4. Instalando pacotes:
+    Com seu ambiente virtual ativado, você pode instalar pacotes Python usando o pip normalmente:
+
+     ```
+     pip install nome_do_pacote
+     ```
+
+5. Desativar o ambiente:
+    Quando terminar de trabalhar com seu projeto e quiser sair do ambiente virtual ativo, execute este comando em qualquer lugar do Terminal.
+
+    ```
+    deactivate
+    ```
