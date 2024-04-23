@@ -55,5 +55,26 @@ Passo 3: Baixe e instale o Python
 Após escolher a versão correta, clique no botão de download correspondente ao seu sistema operacional (por exemplo, Windows, macOS ou Linux).
 Em seguida, siga as instruções fornecidas para completar a instalação.
 
+PASSO A PASSO DE INSTALAÇÃO:
 
+Passo 1: Acesse o site oficial do Python em python.org e clique na opção "Downloads" no menu superior.
+
+Passo 2: Na página de downloads, você verá várias versões disponíveis para diferentes sistemas operacionais.
+Escolha a versão mais recente compatível com o seu sistema operacional (Windows, macOS ou Linux). Se você não tiver certeza sobre qual versão escolher, opte pela recomendada.
+
+Passo 3: Após selecionar a versão desejada, role para baixo até encontrar os arquivos de instalação. 
+Clique no link correspondente ao instalador adequado para o seu sistema (por exemplo, "Windows x86-64 executable installer" para sistemas Windows de 64 bits).
+
+Passo 4: Após baixar o instalador, execute-o clicando duas vezes no arquivo baixado. No Windows, pode ser necessário confirmar permissões de administrador.
+
+Passo 5: Na tela inicial do instalador, marque a opção "Add Python to PATH" e selecione "Customize installation" se você quiser personalizar as configurações
+ ou selecione "Install Now" se preferir as configurações padrão.
+
+Passo 6: Se você escolheu personalizar a instalação nas configurações anteriores, poderá escolher o local onde deseja instalar o Python e quais componentes deseja incluir. 
+Para usuários iniciantes, recomenda-se aceitar as configurações padrão.
+
+Passo 7: Aguarde enquanto a instalação é concluída. Isso pode levar alguns minutos.
+
+Passo 8: Após a conclusão da instalação, verifique se ela foi bem-sucedida abrindo um prompt de comando (no Windows) ou um terminal (no macOS/Linux) e digitando
+ 'python --version'. Você deverá ver uma resposta que mostra a versão do Python que foi instalada.
 
