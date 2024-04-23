@@ -42,5 +42,18 @@ Python é uma linguagem de programação popular conhecida pela sua simplicidade
 e legibilidade. É amplamente usado em desenvolvimento web, análise de dados,
  automação e muitas outras áreas.
 
+PASSO A PASSO FAZER O DOWNLOAD, PASSO 1, PASSO 2, PASSO 3:
+
+Passo 1: Acesse o site oficial do Python
+Vá para o site oficial do Python em python.org. 
+
+Passo 2: Escolha a versão correta
+Na página inicial, você verá duas opções de download: "Python 2.x" e "Python 3.x".
+É recomendado escolher a versão mais recente, ou seja, a versão 3.x.
+
+Passo 3: Baixe e instale o Python
+Após escolher a versão correta, clique no botão de download correspondente ao seu sistema operacional (por exemplo, Windows, macOS ou Linux).
+Em seguida, siga as instruções fornecidas para completar a instalação.
+
 
 
