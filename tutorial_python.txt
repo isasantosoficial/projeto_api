@@ -122,3 +122,9 @@ TUTORIAL VIRTUALENV:
     ```
     deactivate
     ```
+
+O QUE É O VIRTUALENV:
+
+Virtualenv é uma ferramenta que permite criar ambientes virtuais isolados para desenvolvimento de projetos em Python.
+ Isso evita conflitos entre dependências e permite testar diferentes versões de bibliotecas sem afetar o ambiente global.
+ Com o virtualenv, é possível ter um ambiente Python limpo e personalizado para cada projeto.
