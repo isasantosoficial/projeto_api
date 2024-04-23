@@ -128,3 +128,24 @@ O QUE É O VIRTUALENV:
 Virtualenv é uma ferramenta que permite criar ambientes virtuais isolados para desenvolvimento de projetos em Python.
  Isso evita conflitos entre dependências e permite testar diferentes versões de bibliotecas sem afetar o ambiente global.
  Com o virtualenv, é possível ter um ambiente Python limpo e personalizado para cada projeto.
+ 
+PASSO A PASSO FAZER DOWNLOAD DO VIRTUALENV, PASSO 1, PASSO 2, PASSO 3:
+
+Passo 1: Instale o Python
+- Antes de instalar o Virtualenv, você precisa ter o Python instalado em seu sistema. Verifique se você já tem o Python instalado executando `python --version` ou `python3 --version` no terminal. Se não estiver instalado, baixe e instale a versão mais recente do Python no site oficial (https://www.python.org/downloads/).
+
+Passo 2: Instale o pip
+- O pip é um gerenciador de pacotes do Python necessário para instalar bibliotecas externas e ferramentas como o Virtualenv. Verifique se você já tem o pip instalado executando `pip --version` ou `pip3 --version` no terminal. Se não estiver instalado, siga as instruções na documentação oficial do Python para instalar (https://pip.pypa.io/en/stable/installing/).
+
+Passo 3: Instale o Virtualenv
+- Depois de ter o pip instalado, você pode usar esse mesmo comando para instalar virtualenv. Abra seu terminal e execute:
+```
+pip install virtualenv
+```
+ou 
+```
+pip3 install virtualenv
+```
+
+
+
